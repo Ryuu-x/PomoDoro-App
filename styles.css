@@ -1,0 +1,97 @@
+/* General reset */
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    background-color: #f34444;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 30px 50px 50px 50px;
+    margin: 0;
+    color: #fff;
+    transition: background-color 1s ease; /* Smooth transition on background-color */
+}
+
+.subtle-blue {
+    background-color: #54a6dd; /* Subtle blue color */
+}
+
+
+
+/* Existing styles */
+
+/* Volume control styling */
+.volume-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.volume-control label {
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.volume-control input[type="range"] {
+    width: 100px;
+}
+
+
+h1{
+    padding: 0px 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#text
+{
+    font-size: 18px;
+}
+
+#minutes, #seconds, #colon 
+{
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    background-color: #fd6060;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Timer display */
+.timer {
+    font-size: 4em;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Control buttons */
+.controls button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #f34444;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.controls button:hover {
+    background-color: #d6d5d5;
+}
+
+/* Session info */
+.session-info {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
